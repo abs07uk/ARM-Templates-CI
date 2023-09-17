@@ -20,7 +20,7 @@ steps:
     location: 'UK South'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/abs07uk/ARM-Templates-CI/main/create_web_app/azuredeploy.json'
-    overrideParameters: '-projectName deploy170923'
+    overrideParameters: '-projectName dep170923'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
   displayName: 'Run a one-line script'
